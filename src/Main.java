@@ -52,6 +52,8 @@ public class Main {
         Converter<String, String> conv = Temp::startWith;
 
         conv.convert("Example");
+        conv.convert("Example");          // comment
+
 
         //----------------------------------------------------------
 
